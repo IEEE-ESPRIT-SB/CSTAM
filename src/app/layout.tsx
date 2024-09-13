@@ -20,7 +20,7 @@ export default function RootLayout({
         <html lang='en'>
             <body className={`${fontSans.variable}`}>
                 <Navbar />
-                {children}
+                <main className='flex flex-col gap-32 py-20'>{children}</main>
                 <Footer />
             </body>
         </html>

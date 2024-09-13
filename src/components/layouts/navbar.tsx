@@ -27,7 +27,7 @@ const navItems = [
 
 const Navbar = () => {
     return (
-        <div className='fixed inline-flex items-center justify-between w-full px-20 py-10'>
+        <div className='fixed inline-flex items-center justify-between w-full px-20 py-4 bg-background z-20'>
             <div className='inline-flex items-center gap-20'>
                 <Image
                     src='/images/logo.svg'
