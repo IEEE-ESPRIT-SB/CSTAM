@@ -10,7 +10,7 @@ const TeamCard = ({ name, description, imageUrl }: Props) => {
     return (
         <div className='flex flex-col items-center'>
             <Image
-                src='/images/speakers/speaker-1.jpeg'
+                src={imageUrl}
                 width={250}
                 height={250}
                 alt={name}
