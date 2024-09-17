@@ -1,4 +1,3 @@
-import EventDate from './_components/event-date';
 import GetToKnow from './_components/get-to-know';
 import HeroSection from './_components/hero-section';
 import NewsSection from './_components/news-section';
@@ -12,7 +11,7 @@ export default function Home() {
             <HeroSection />
             <NewsSection />
             <GetToKnow />
-            <EventDate />
+            {/* <EventDate /> */}
             <TechChallenge />
             <Speakers />
             <Teams />

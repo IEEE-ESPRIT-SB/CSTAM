@@ -8,7 +8,7 @@ type Props = {
 
 const TeamCard = ({ name, description, imageUrl }: Props) => {
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center self-center'>
             <Image
                 src={imageUrl}
                 width={250}

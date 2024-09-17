@@ -5,23 +5,23 @@ import { ChevronRight } from 'lucide-react';
 const GetToKnow = () => {
     return (
         <section
-            className='pt-32 flex flex-col gap-10 justify-center px-40 bg-center bg-cover bg-no-repeat'
+            className='pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
             style={{
                 backgroundImage: `url('/images/get-to-know.png')`,
                 height: '800px'
             }}>
-            <Badge text='About The Event' />
             <div className='flex flex-col gap-4'>
-                <h4 className='text-6xl font-black w-1/2'>
+                <Badge text='About The Event' />
+                <h4 className='md:text-5xl text-4xl font-black md:w-1/2'>
                     Get To Know More About CSTAM
                 </h4>
-                <p className='text-xl w-1/2'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod
-                </p>
             </div>
+            <p className='md:text-xl md:w-1/2'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod
+            </p>
             <div className='flex'>
                 <Button size='lg' className='pr-4 py-6'>
                     Learn More

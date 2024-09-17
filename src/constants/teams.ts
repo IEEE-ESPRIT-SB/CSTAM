@@ -7,7 +7,7 @@ export const teams = [
     {
         name: 'Jane Doe',
         description: 'CTO, Co-Founder',
-        imageUrl: '/images/speakers/speaker-2.jpeg'
+        imageUrl: '/images/speakers/speaker-1.jpeg'
     },
     {
         name: 'John Doe',
@@ -17,6 +17,6 @@ export const teams = [
     {
         name: 'Jane Doe',
         description: 'CTO, Co-Founder',
-        imageUrl: '/images/speakers/speaker-2.jpeg'
+        imageUrl: '/images/speakers/speaker-1.jpeg'
     }
 ];
