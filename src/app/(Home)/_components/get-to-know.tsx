@@ -1,11 +1,15 @@
+'use client';
 import Badge from '@/components/badge';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-
+import { useRouter } from 'next/navigation';
+import './button.css';
+import './rgb.css';
 const GetToKnow = () => {
+    const router = useRouter();
     return (
         <section
-            className='pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
+            className='glow-on-hover pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
             style={{
                 backgroundImage: `url('/images/get-to-know.png')`,
                 height: '800px'
@@ -23,7 +27,10 @@ const GetToKnow = () => {
                 sed do eiusmod
             </p>
             <div className='flex'>
-                <Button size='lg' className='pr-4 py-6'>
+                <Button
+                    onClick={() => router.push('/about-us')}
+                    size='lg'
+                    className='btn-hover color-1 pr-4 py-6'>
                     Learn More
                     <ChevronRight size={24} className='ml-4' />
                 </Button>

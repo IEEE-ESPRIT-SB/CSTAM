@@ -1,10 +1,10 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import './button.css';
 import CsLogo from '/public/images/cs.png';
 import CstamLogo from '/public/images/cstam.png';
 import SbLogo from '/public/images/sb.png';
 import SectionLogo from '/public/images/section.png';
-
 const HeroSection = () => {
     return (
         <section className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>

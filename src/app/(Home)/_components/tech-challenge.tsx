@@ -1,19 +1,21 @@
 import Badge from '@/components/badge';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-import Image from 'next/image';
-
+import './button.css';
+import ImageWithHoverEffect from './cup';
 const TechChallenge = () => {
     return (
         <div className='md:px-40 px-10 flex flex-row'>
             <div className='flex-1 md:flex hidden items-center justify-center'>
-                <Image
+                <ImageWithHoverEffect />
+                {/* <Image
                     src='/images/coupe.png'
                     width={300}
                     height={400}
                     alt='Tech Challenge'
-                    className=' mix-blend-screen'
-                />
+                    id='gasses'
+                    className='cup-hover mix-blend-screen'
+                /> */}
             </div>
             <div className='flex flex-col gap-10 flex-1'>
                 <Badge text='Technical Challenge' />
@@ -29,7 +31,7 @@ const TechChallenge = () => {
                     </p>
                 </div>
                 <div className='flex'>
-                    <Button size='lg' className='pr-4 py-6'>
+                    <Button size='lg' className='btn-hover color-1 pr-4 py-6'>
                         Learn More
                         <ChevronRight size={24} className='ml-4' />
                     </Button>
