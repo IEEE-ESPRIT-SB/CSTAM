@@ -1,10 +1,8 @@
  
 
 .glow-on-hover {
-    border: none;
-    outline: none;
     color: #fff;
-    cursor: pointer;
+    cursor: default;
     position: relative;
 }
 

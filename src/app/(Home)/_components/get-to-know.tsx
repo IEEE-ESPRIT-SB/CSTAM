@@ -1,21 +1,22 @@
 'use client';
-import Badge from '@/components/badge';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import BadgeGlass from './badge';
 import './button.css';
 import './rgb.css';
 const GetToKnow = () => {
     const router = useRouter();
     return (
         <section
-            className='glow-on-hover pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
+            className=' pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
             style={{
                 backgroundImage: `url('/images/get-to-know.png')`,
                 height: '800px'
             }}>
             <div className='flex flex-col gap-4'>
-                <Badge text='About The Event' />
+                <BadgeGlass text='About The Event' />
+
                 <h4 className='md:text-5xl text-4xl font-black md:w-1/2'>
                     Get To Know More About CSTAM
                 </h4>

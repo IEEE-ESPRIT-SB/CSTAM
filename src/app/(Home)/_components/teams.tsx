@@ -1,12 +1,12 @@
-import Badge from '@/components/badge';
 import TeamCard from '@/components/cards/team-card';
 import { teams } from '@/constants/teams';
+import BadgeGlass from './badge';
 
 const Teams = () => {
     return (
         <section className='flex flex-col gap-10 md:px-40 px-10'>
             <div className='flex flex-col gap-4'>
-                <Badge text='Our Team' />
+                <BadgeGlass text='Our Team' />
                 <h4 className='md:text-5xl text-4xl font-bold'>
                     Meet the Minds Behind CSTAM 1.0
                 </h4>

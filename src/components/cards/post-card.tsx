@@ -7,7 +7,7 @@ type Props = {
 const PostCard = ({ imageUrl, eventName, category }: Props) => {
     return (
         <div
-            className='w-[250px] h-[330px] duration-300 px-4 py-2 flex flex-col justify-end bg-cover bg-center bg-no-repeat self-center'
+            className='w-[250px] h-[330px] ease-in-out hover:bg-contain duration-300 px-4 py-2 flex flex-col justify-end bg-cover bg-center bg-no-repeat self-center'
             style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(${imageUrl})`
             }}>

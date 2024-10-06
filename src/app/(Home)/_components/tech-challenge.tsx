@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
+import BadgeGlass from './badge';
 import './badge.css';
 import './button.css';
 import ImageWithHoverEffect from './cup';
@@ -18,9 +19,7 @@ const TechChallenge = () => {
                 /> */}
             </div>
             <div className='flex flex-col gap-10 flex-1'>
-                <a href='https://twitter.com/Dave_Conner' className='btn btn-4'>
-                    <span>Technical Challenge</span>
-                </a>
+                <BadgeGlass text='Technical Challenge' />
                 <div className='flex flex-col gap-4'>
                     <h2 className='md:text-6xl text-4xl font-bold'>
                         Rise to the Challenge

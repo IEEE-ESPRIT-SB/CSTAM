@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import './badge.css';
 import './button.css';
+import './hero.css';
 import CsLogo from '/public/images/cs.png';
 import CstamLogo from '/public/images/cstam.png';
 import SbLogo from '/public/images/sb.png';
@@ -8,7 +10,7 @@ import SectionLogo from '/public/images/section.png';
 const HeroSection = () => {
     return (
         <section className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>
-            <h4 className='uppercase md:text-lg font-medium'>
+            <h4 className='typing-title uppercase md:text-lg font-medium'>
                 #1 cs Tunisian annual meeting
             </h4>
             <h1 className='md:text-8xl text-6xl font-black'>CSTAM 1.0</h1>
@@ -19,7 +21,7 @@ const HeroSection = () => {
             </p>
             <div className='flex gap-10 mt-10'>
                 <Button size='lg'>Register Now</Button>
-                <Button variant='secondary' size='lg'>
+                <Button className='btn-4' variant='secondary' size='lg'>
                     Get in touch
                 </Button>
             </div>
