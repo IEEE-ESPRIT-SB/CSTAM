@@ -60,3 +60,35 @@ export const teams = [
         imageUrl: '/images/speakers/speaker-1.jpeg'
     }
 ];
+export const oc = {
+    'Media Team': [
+        {
+            name: '',
+            imageUrl: ''
+        }
+    ],
+    'Logistics Team': [
+        {
+            name: '',
+            imageUrl: ''
+        }
+    ],
+    'Sponsoring Team': [
+        {
+            name: '',
+            imageUrl: ''
+        }
+    ],
+    'Communication Team': [
+        {
+            name: '',
+            imageUrl: ''
+        }
+    ],
+    'Technical Team': [
+        {
+            name: '',
+            imageUrl: ''
+        }
+    ]
+};
