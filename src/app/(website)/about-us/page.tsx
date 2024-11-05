@@ -2,7 +2,6 @@ import { oc, teams } from '@/constants/teams';
 import CSEsprit from './_components/cs-esprit';
 import EspritSb from './_components/esprit-sb';
 import HeroSection from './_components/hero-section';
-import PreviousEditions from './_components/previous-editions';
 import TeamsSection from './_components/teams-section';
 
 export default function AboutUsPage() {
@@ -15,7 +14,7 @@ export default function AboutUsPage() {
                 }}></div>
 
             <HeroSection />
-            <PreviousEditions />
+
             <div
                 className='w-full md:h-[800px] h-auto bg-cover bg-center bg-no-repeat rounded-t-lg md:-mt-40 -mt-20'
                 style={{

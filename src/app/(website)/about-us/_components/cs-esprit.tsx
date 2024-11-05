@@ -8,7 +8,7 @@ export default function CSEsprit() {
                     src='/images/cs-logo.webp'
                     width={500}
                     height={500}
-                    alt='logo wie act'
+                    alt='logo cs'
                 />
             </div>
             <div className='flex flex-col gap-4 flex-1'>

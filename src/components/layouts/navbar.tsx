@@ -7,7 +7,7 @@ import { Drawer, DrawerContent, DrawerTrigger } from '../ui/drawer';
 const navItems = [
     {
         name: 'Home',
-        link: '/'
+        link: '/home'
     },
     {
         name: 'About us',
@@ -20,10 +20,6 @@ const navItems = [
     {
         name: 'Sponsors',
         link: '/sponsors'
-    },
-    {
-        name: 'Contact us',
-        link: '/contact-us'
     }
 ];
 

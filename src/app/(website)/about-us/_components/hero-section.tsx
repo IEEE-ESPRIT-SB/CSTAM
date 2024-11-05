@@ -26,10 +26,10 @@ export default function HeroSection() {
                 </p>
                 <Image
                     className='md:block hidden'
-                    src='/images/logo.webp'
-                    width={100}
-                    height={100}
-                    alt='WIE ACT logo'
+                    src='/images/CSTAM LOGO.png'
+                    width={150}
+                    height={38}
+                    alt='CSTAM ACT logo'
                 />
             </div>
         </section>

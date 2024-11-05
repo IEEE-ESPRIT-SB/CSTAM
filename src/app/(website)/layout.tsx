@@ -1,3 +1,5 @@
+import Footer from '@/components/layouts/footer';
+import Navbar from '@/components/layouts/navbar';
 import type { Metadata } from 'next';
 import { Montserrat as FontSans } from 'next/font/google';
 import './globals.css';
@@ -17,10 +19,11 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body className={`${fontSans.variable}`}>
-                <main>
-                    {/* <LoadingBar /> */}
+                <Navbar />
+                <main className='flex flex-col md:gap-32 gap-20 py-20'>
                     {children}
                 </main>
+                <Footer />
             </body>
         </html>
     );

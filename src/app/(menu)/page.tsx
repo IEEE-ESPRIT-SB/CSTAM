@@ -1,26 +1,29 @@
+'use client';
 import { Button } from '@nextui-org/react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import './_components/button.css';
-import LoadingB from './_components/loadingB';
+import Loader from './_components/loader';
 import './_components/logo.css';
 export default function Home() {
+    const router = useRouter();
     return (
         <>
             {/* Conteneur de la vidéo en arrière-plan */}
             <div className='relative w-full h-screen'>
-                <LoadingB />
-
-                {/* Contenu par-dessus la vidéo */}
-                <div className='main ml-20 w-1/4 relative flex flex-col items-center justify-center h-full z-10'>
+                <Loader />
+                <div className='main md:ml-20 md:w-1/4 relative flex flex-col items-center justify-center h-full z-10'>
                     <Image
-                        className='absolute left-30 top-28 logo'
+                        className='mb-14'
                         width={800}
                         height={800}
                         alt='logo CSTAM'
                         src='/images/colored_version.webp'></Image>
-                    <div className='relative flex justify-center opacity-100 w-1/2'>
+                    <div className='relative flex justify-center md:w-1/2 w-full'>
                         <div className='flex flex-col space-y-6'>
-                            <Button className='cybr-btn'>
+                            <Button
+                                onClick={() => router.push('/home')}
+                                className='cybr-btn'>
                                 New Game<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
                                     16 & 17 November
@@ -38,15 +41,7 @@ export default function Home() {
                                     R25
                                 </span>
                             </Button>
-                            <Button className='cybr-btn'>
-                                Credits<span aria-hidden>_</span>
-                                <span aria-hidden className='cybr-btn__glitch'>
-                                    Credits_
-                                </span>
-                                <span aria-hidden className='cybr-btn__tag'>
-                                    R25
-                                </span>
-                            </Button>
+
                             <Button className='cybr-btn'>
                                 Tutorial<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
@@ -57,6 +52,17 @@ export default function Home() {
                                 </span>
                             </Button>
                             <Button className='cybr-btn'>
+                                Credits<span aria-hidden>_</span>
+                                <span aria-hidden className='cybr-btn__glitch'>
+                                    Credits_
+                                </span>
+                                <span aria-hidden className='cybr-btn__tag'>
+                                    R25
+                                </span>
+                            </Button>
+                            <Button
+                                onClick={() => window.close()}
+                                className='cybr-btn'>
                                 Quit Game<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
                                     Quit Game_
