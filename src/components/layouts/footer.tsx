@@ -26,9 +26,9 @@ const Footer = () => {
                     <ul className='flex flex-col gap-2'>
                         <Link href='/home'>Home</Link>
                         <Link href='/about-us'>About Us</Link>
-                        <Link href='/#news-section'>Latest News</Link>
-                        <Link href='/#speakers-section'>Speakers</Link>
-                        <Link href='/#teams-section'>Team</Link>
+                        <Link href='/home#news-section'>Latest News</Link>
+                        <Link href='/home#speakers-section'>Speakers</Link>
+                        <Link href='/home#teams-section'>Team</Link>
                     </ul>
                 </div>
             </div>
@@ -45,12 +45,12 @@ const Footer = () => {
                 <div className='flex flex-row gap-4'>
                     <Link
                         target='_blank'
-                        href='https://www.facebook.com/profile.php?id=100084776743566/'>
+                        href='https://www.facebook.com/IEEECSTAM'>
                         <FaFacebook size={25} />
                     </Link>
                     <Link
                         target='_blank'
-                        href='https://www.instagram.com/wie.act/'>
+                        href='https://www.instagram.com/ieeecstam/'>
                         <InstagramLogoIcon width={25} height={25} />
                     </Link>
                 </div>

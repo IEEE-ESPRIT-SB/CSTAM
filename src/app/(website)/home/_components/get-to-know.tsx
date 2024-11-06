@@ -11,7 +11,7 @@ const GetToKnow = () => {
         <section
             className=' pt-32 flex flex-col gap-10 justify-center mx:px-40 px-10 bg-center bg-cover bg-no-repeat'
             style={{
-                backgroundImage: `url('/images/get-to-know.png')`,
+                backgroundImage: `url('/images/get-to-know.webp')`,
                 height: '800px'
             }}>
             <div className='flex flex-col gap-4'>

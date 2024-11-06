@@ -72,8 +72,12 @@ const Navbar = () => {
                     </DrawerContent>
                 </Drawer>
             </div>
-            <Button variant='secondary' size='lg' className='md:block hidden'>
-                Register Now
+            <Button
+                variant='secondary'
+                size='lg'
+                className='md:block hidden'
+                disabled>
+                Registration Closed
             </Button>
         </div>
     );

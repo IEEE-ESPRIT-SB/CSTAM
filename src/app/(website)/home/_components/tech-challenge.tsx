@@ -10,7 +10,7 @@ const TechChallenge = () => {
             <div className='flex-1 md:flex hidden items-center justify-center'>
                 <ImageWithHoverEffect />
                 {/* <Image
-                    src='/images/coupe.png'
+                    src='/images/coupe.webp'
                     width={300}
                     height={400}
                     alt='Tech Challenge'
@@ -32,10 +32,14 @@ const TechChallenge = () => {
                     </p>
                 </div>
                 <div className='flex'>
-                    <Button size='lg' className='btn-hover color-1 pr-4 py-6'>
-                        Learn More
-                        <ChevronRight size={24} className='ml-4' />
-                    </Button>
+                    <a href='https://drive.google.com/file/d/1r2J-To6qXe62mGIrbUn_USfbrSlflr01/view'>
+                        <Button
+                            size='lg'
+                            className='btn-hover color-1 pr-4 py-6'>
+                            Learn More
+                            <ChevronRight size={24} className='ml-4' />
+                        </Button>
+                    </a>
                 </div>
             </div>
         </div>

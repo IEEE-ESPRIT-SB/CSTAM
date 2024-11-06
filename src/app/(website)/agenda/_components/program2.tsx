@@ -1,15 +1,15 @@
 import ProgCard from '@/components/cards/prog-card';
-import { prog1 } from '@/constants/prog';
+import { prog2 } from '@/constants/prog';
 import BadgeGlass from './badge';
 
-const Program = () => {
+const Program2 = () => {
     return (
-        <section className='flex flex-col gap-10 md:px-72 px-48'>
+        <section className='flex flex-col gap-10 md:px-72 px-48 mt-10'>
             <div className='flex flex-col gap-4'>
-                <BadgeGlass text='Day 1 - 16 nov' />
+                <BadgeGlass text='Day 2 - 17 nov' />
             </div>
             <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between'>
-                {prog1.map((p, index) => (
+                {prog2.map((p, index) => (
                     <ProgCard
                         key={index}
                         eventName={p.eventName}
@@ -24,4 +24,4 @@ const Program = () => {
     );
 };
 
-export default Program;
+export default Program2;

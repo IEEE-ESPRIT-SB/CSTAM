@@ -26,7 +26,7 @@ export default function HeroSection() {
                 </p>
                 <Image
                     className='md:block hidden'
-                    src='/images/CSTAM LOGO.png'
+                    src='/images/CSTAM LOGO.webp'
                     width={150}
                     height={38}
                     alt='CSTAM ACT logo'

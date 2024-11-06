@@ -1,13 +1,16 @@
+'use client';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import './badge.css';
 import './button.css';
 import './hero.css';
-import CsLogo from '/public/images/cs.png';
-import CstamLogo from '/public/images/cstam.png';
-import SbLogo from '/public/images/sb.png';
-import SectionLogo from '/public/images/section.png';
+import CsLogo from '/public/images/cs.webp';
+import CstamLogo from '/public/images/cstam.webp';
+import SbLogo from '/public/images/sb.webp';
+import SectionLogo from '/public/images/section.webp';
 const HeroSection = () => {
+    const router = useRouter();
     return (
         <section className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>
             <h4 className='typing-title uppercase md:text-lg font-medium'>
@@ -20,8 +23,18 @@ const HeroSection = () => {
                 enim
             </p>
             <div className='flex gap-10 mt-10'>
-                <Button size='lg'>Register Now</Button>
-                <Button className='btn-4' variant='secondary' size='lg'>
+                <Button
+                    variant='secondary'
+                    size='lg'
+                    className='md:block hidden'
+                    disabled>
+                    Registration Closed
+                </Button>
+                <Button
+                    onClick={() => router.push('/about-us')}
+                    className='btn-4'
+                    variant='secondary'
+                    size='lg'>
                     Get in touch
                 </Button>
             </div>

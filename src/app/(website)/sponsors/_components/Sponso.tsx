@@ -1,11 +1,11 @@
 import Badge from '@/components/badge';
 import Image from 'next/image';
 import './styleS.css';
-import CsLogo from '/public/images/cs.png';
-import CstamLogo from '/public/images/cstam.png';
-import SbLogo from '/public/images/sb.png';
-import SectionLogo from '/public/images/section.png';
-import Sponsors from '/public/images/sponsors.png';
+import CsLogo from '/public/images/cs.webp';
+import CstamLogo from '/public/images/cstam.webp';
+import SbLogo from '/public/images/sb.webp';
+import SectionLogo from '/public/images/section.webp';
+import Sponsors from '/public/images/sponsors.webp';
 export default function Sponso() {
     return (
         <section className='flex flex-col items-center justify-center gap-10 md:px-40 px-10 mt-0'>
@@ -30,7 +30,7 @@ export default function Sponso() {
             <div className='flex md:flex-row flex-col justify-center items-center '>
                 <div className='flex-1 flex items-center justify-center'>
                     <Image
-                        src='/images/orange.jpg'
+                        src='/images/orange.webp'
                         width={500}
                         height={500}
                         alt='logo orange'
