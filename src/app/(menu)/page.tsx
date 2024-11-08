@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             {/* Conteneur de la vidéo en arrière-plan */}
-            <div className='relative w-full h-screen'>
+            <main className='relative w-full h-screen'>
                 <Loader />
                 <div className='main md:ml-20 md:w-1/4 relative flex flex-col items-center justify-center h-full z-10'>
                     <Image
@@ -42,7 +42,9 @@ export default function Home() {
                                 </span>
                             </Button>
 
-                            <Button className='cybr-btn'>
+                            <Button
+                                onClick={() => router.push('/about-us')}
+                                className='cybr-btn'>
                                 Tutorial<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
                                     Tutorial_
@@ -51,7 +53,9 @@ export default function Home() {
                                     R25
                                 </span>
                             </Button>
-                            <Button className='cybr-btn'>
+                            <Button
+                                onClick={() => router.push('/home#Credits')}
+                                className='cybr-btn'>
                                 Credits<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
                                     Credits_
@@ -61,7 +65,9 @@ export default function Home() {
                                 </span>
                             </Button>
                             <Button
-                                onClick={() => window.close()}
+                                onClick={() =>
+                                    router.push('https://google.com')
+                                }
                                 className='cybr-btn'>
                                 Quit Game<span aria-hidden>_</span>
                                 <span aria-hidden className='cybr-btn__glitch'>
@@ -74,7 +80,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </>
     );
 }

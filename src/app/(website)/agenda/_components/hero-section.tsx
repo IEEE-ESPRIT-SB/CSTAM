@@ -5,9 +5,8 @@ export default function HeroSection() {
                 CSTAM 1.0 PROGRAM
             </h2>
             <p className='md:text-lg md:w-1/2 md:text-center'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim Lorem ipsum dolor
+                The CSTAM 1.0 Program will be announced soon! Stay tuned for
+                exciting updates!
             </p>
         </section>
     );

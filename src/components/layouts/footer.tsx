@@ -14,9 +14,10 @@ const Footer = () => {
                         height={40}
                     />
                     <p className='text-white w-1/3'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim Lorem ipsum dolor sit amet,{' '}
+                        CSTAM brings together members of the IEEE Computer
+                        Society across Tunisia, including students and young
+                        professionals and will be taking place on November 16th
+                        and 17th 2024. ,{' '}
                     </p>
                 </div>
                 <div className='flex flex-col gap-4 self-end  w-fit'>

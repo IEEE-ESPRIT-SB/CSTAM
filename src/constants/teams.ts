@@ -25,6 +25,16 @@ export const teams = [
         imageUrl: '/images/board/fatmabenmlouka.webp'
     },
     {
+        name: 'Amal Romdhani',
+        description: 'Communication Manager',
+        imageUrl: '/images/board/amal.webp'
+    },
+    {
+        name: 'Yasmine Temimi',
+        description: ' Manager',
+        imageUrl: '/images/board/tita.webp'
+    },
+    {
         name: 'Mohamed Bouzayani',
         description: 'Logistics & Program Manager',
         imageUrl: '/images/board/mohamedbouzayani.webp'
@@ -43,6 +53,11 @@ export const teams = [
         name: 'Aziz Hbaili',
         description: 'Media Manager',
         imageUrl: '/images/board/azizhbaili.webp'
+    },
+    {
+        name: 'Farah Lakhal',
+        description: 'Co-Media Manager',
+        imageUrl: '/images/board/farah.webp'
     },
     {
         name: 'Aziz Ben Slima',

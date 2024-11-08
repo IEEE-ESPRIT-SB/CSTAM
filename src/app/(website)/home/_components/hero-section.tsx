@@ -18,9 +18,9 @@ const HeroSection = () => {
             </h4>
             <h1 className='md:text-8xl text-6xl font-black'>CSTAM 1.0</h1>
             <p className='md:text-lg md:mt-10 mt-5 md:max-w-[600px]'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim
+                CSTAM brings together members of the IEEE Computer Society
+                across Tunisia, including students and young professionals and
+                will be taking place on November 16th and 17th 2024.
             </p>
             <div className='flex gap-10 mt-10'>
                 <Button

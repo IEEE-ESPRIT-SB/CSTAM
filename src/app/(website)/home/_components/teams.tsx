@@ -4,7 +4,7 @@ import BadgeGlass from './badge';
 
 const Teams = () => {
     return (
-        <section className='flex flex-col gap-10 md:px-40 px-10'>
+        <section className='flex flex-col gap-10 md:px-40 px-10' id='Credits'>
             <div className='flex flex-col gap-4'>
                 <BadgeGlass text='Our Team' />
                 <h4 className='md:text-5xl text-4xl font-bold'>

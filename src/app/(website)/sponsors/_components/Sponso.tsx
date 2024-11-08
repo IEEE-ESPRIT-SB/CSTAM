@@ -1,6 +1,6 @@
 import Badge from '@/components/badge';
 import Image from 'next/image';
-import './styleS.css';
+import './sponso.css';
 import CsLogo from '/public/images/cs.webp';
 import CstamLogo from '/public/images/cstam.webp';
 import SbLogo from '/public/images/sb.webp';
@@ -8,7 +8,7 @@ import SectionLogo from '/public/images/section.webp';
 import Sponsors from '/public/images/sponsors.webp';
 export default function Sponso() {
     return (
-        <section className='flex flex-col items-center justify-center gap-10 md:px-40 px-10 mt-0'>
+        <section className='sponso flex flex-col items-center justify-center gap-10 md:px-40 px-10 mt-0'>
             <Badge text='Grateful Acknowledgments' />
             <h2 className='md:text-6xl text-4xl font-bold'>
                 MEET OUR SPONSORS
@@ -42,16 +42,15 @@ export default function Sponso() {
                         Center
                     </h2>
                     <p className='md:text-lg md:py-10'>
-                        The IEEE CS ESPRIT SBC is dedicated to advancing the
-                        theory, practice, and application of computer and
-                        information processing science and technology. Through
-                        continuous workshops and efforts, we, as CS ESPRIT SBC,
-                        strive to empower our members with knowledge of trending
-                        technologies. We are committed to integrating members
-                        into a dynamic community that fosters learning,
-                        collaboration, and engagement with IEEE activities,
-                        ensuring a dynamic and forward-thinking environment for
-                        aspiring professionals.
+                        The Orange Digital Center (ODC) is an initiative by the
+                        telecommunications company Orange, aimed at supporting
+                        digital skills training, entrepreneurship, and
+                        innovation in various countries. These centers are
+                        established to foster digital inclusion and empower
+                        communities by providing training in technology, digital
+                        tools, and business skills. They often target young
+                        people, women, and underserved communities, helping
+                        bridge the digital divide and enhance employability.
                     </p>
                 </div>
             </div>
