@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .btn-hover {
     width: 200px;
     font-size: 20px;
@@ -12,21 +11,21 @@
     color: #fff;
     cursor: pointer;
     height: 55px;
-    text-align:center;
+    text-align: center;
     background-size: 300% 100%;
 
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn-hover:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn-hover:focus {
@@ -34,6 +33,12 @@
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #f5ce62, #e43603, #af32d2, #e85a19);
+    background-image: linear-gradient(
+        to right,
+        #f5ce62,
+        #e43603,
+        #af32d2,
+        #e85a19
+    );
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }

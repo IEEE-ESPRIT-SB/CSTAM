@@ -7,7 +7,7 @@ type Props = {
 
 export default function SpeakerCard({ imageUrl, name, description }: Props) {
     return (
-        <Card className='max-w-[280px] max-h-[430px] 	'>
+        <Card className='max-w-[280px] max-h-[430px]'>
             <CardBody>
                 <Image
                     alt='image'
@@ -27,7 +27,7 @@ export default function SpeakerCard({ imageUrl, name, description }: Props) {
                     }}>
                     <h4 className='loading-text m-2 text-xl font-bold uppercase'>
                         {name}
-                        <span className='dots'> </span>
+                        <span className='dots'></span>
                     </h4>
                     <p className='text-sm ml-3 font-medium'>{description}</p>
                 </div>
