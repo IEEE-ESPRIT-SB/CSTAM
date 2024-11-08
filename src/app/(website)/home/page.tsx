@@ -8,7 +8,7 @@ import TechChallenge from './_components/tech-challenge';
 
 export default function Home() {
     return (
-        <>
+        <div className='main-background'>
             <HeroSection />
             <NewsSection />
             <GetToKnow />
@@ -16,6 +16,6 @@ export default function Home() {
             <TechChallenge />
             <Speakers />
             <Teams />
-        </>
+        </div>
     );
 }

@@ -17,15 +17,15 @@ const TeamsSection = ({
     return (
         <section
             id='teams-section'
-            className='flex flex-col gap-10 md:px-40 px-10'>
+            className='flex flex-col gap-10 xl:px-40 px-10'>
             <div className='flex flex-col gap-4'>
                 <Badge text={title} />
-                <h4 className='md:text-5xl text-4xl font-bold uppercase'>
+                <h4 className='xl:text-5xl text-4xl font-bold uppercase'>
                     {/* Get to know the dedicated team behind WIE ACT 3.0 */}
                     {description ?? ''}
                 </h4>
             </div>
-            <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10'>
+            <div className='flex xl:flex-wrap xl:flex-row flex-col xl:items-start items-center xl:justify-between gap-10'>
                 {teams.map((team, index) => (
                     <TeamCard
                         key={index}

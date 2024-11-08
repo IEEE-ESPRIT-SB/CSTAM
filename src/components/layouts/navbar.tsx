@@ -25,7 +25,7 @@ const navItems = [
 
 const Navbar = () => {
     return (
-        <div className='fixed inline-flex items-center justify-between w-full md:px-20 px-10 py-4 bg-background z-20'>
+        <div className='fixed inline-flex items-center justify-between w-full xl:px-20 px-10 py-4 bg-background z-[999]'>
             <div className='inline-flex items-center gap-20'>
                 <Image
                     src='/images/logo.svg'
@@ -33,7 +33,7 @@ const Navbar = () => {
                     width={200}
                     height={40}
                 />
-                <div className='items-center gap-10 md:flex hidden'>
+                <div className='items-center gap-10 xl:flex hidden'>
                     {navItems.map((item, index) => (
                         <Link
                             key={index}
@@ -44,7 +44,7 @@ const Navbar = () => {
                     ))}
                 </div>
             </div>
-            <div className='md:hidden block'>
+            <div className='xl:hidden block z-[999]'>
                 <Drawer direction='right'>
                     <DrawerTrigger>
                         <MenuIcon size={35} />
@@ -75,7 +75,7 @@ const Navbar = () => {
             <Button
                 variant='secondary'
                 size='lg'
-                className='md:block hidden'
+                className='xl:block hidden'
                 disabled>
                 Registration Closed
             </Button>

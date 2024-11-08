@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function CSEsprit() {
     return (
-        <section className='flex md:flex-row flex-col justify-center items-center gap-10 md:px-40 px-10'>
+        <section className='flex xl:flex-row flex-col justify-center items-center gap-10 xl:px-40 px-10'>
             <div className='flex-1 flex items-center justify-center'>
                 <Image
                     src='/images/cs-logo.webp'
@@ -12,10 +12,10 @@ export default function CSEsprit() {
                 />
             </div>
             <div className='flex flex-col gap-4 flex-1'>
-                <h2 className='md:text-6xl text-4xl font-bold'>
+                <h2 className='xl:text-6xl text-4xl font-bold'>
                     IEEE ESPRIT CS SB Chapter
                 </h2>
-                <p className='md:text-lg md:py-10'>
+                <p className='xl:text-lg xl:py-10'>
                     The IEEE CS ESPRIT SBC is dedicated to advancing the theory,
                     practice, and application of computer and information
                     processing science and technology. Through continuous
