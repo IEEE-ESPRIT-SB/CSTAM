@@ -22,10 +22,9 @@ const GetToKnow = () => {
                 </h4>
             </div>
             <p className='md:text-xl md:w-1/2'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod
+                CSTAM brings together members of the IEEE Computer Society
+                across Tunisia, including students and young professionals and
+                will be taking place on November 16th and 17th 2024.
             </p>
             <div className='flex'>
                 <Button

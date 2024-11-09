@@ -25,10 +25,10 @@ const TechChallenge = () => {
                         Rise to the Challenge
                     </h2>
                     <p className='md:text-lg md:py-10'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod{' '}
+                        Develop an AI-powered infrastructure solution to
+                        automate cybersecurity incident detection, response, and
+                        mitigation, enhancing organizational resilience against
+                        cyber threats.{' '}
                     </p>
                 </div>
                 <div className='flex'>
