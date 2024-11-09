@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             {/* Conteneur de la vidéo en arrière-plan */}
-            <main className='relative w-full h-screen'>
+            <main className='relative w-full h-screen main-background'>
                 <Loader />
                 <div className='main md:ml-20 md:w-1/4 relative flex flex-col items-center justify-center h-full z-10'>
                     <Image

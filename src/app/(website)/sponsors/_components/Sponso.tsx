@@ -13,11 +13,6 @@ export default function Sponso() {
             <h2 className='md:text-6xl text-4xl font-bold'>
                 MEET OUR SPONSORS
             </h2>
-            <p className='md:text-lg md:w-1/2 md:text-center'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim Lorem ipsum dolor
-            </p>
             <div className='bottom-10 left-0 right-0 flex justify-center gap-20 overflow-x-auto overflow-hidden mt-5'>
                 <Image src={CstamLogo} alt='CSTAM LOGO' height={60} />
                 <Image src={CsLogo} alt='CS LOGO' height={60} />
