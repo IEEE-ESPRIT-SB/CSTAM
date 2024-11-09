@@ -8,7 +8,7 @@ import TechChallenge from './_components/tech-challenge';
 
 export default function Home() {
     return (
-        <div className='main-background'>
+        <div className='main-background flex flex-col md:gap-32 gap-20 pb-10'>
             <HeroSection />
             <NewsSection />
             <GetToKnow />

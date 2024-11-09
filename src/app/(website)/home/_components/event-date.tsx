@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const EventDate = () => {
     return (
-        <section className='flex flex-row justify-between w-full '>
+        <section className='xl:flex hidden flex-row justify-between w-full'>
             <Image src={SideVector} alt='side vector' className='opacity-40' />
             <div className='flex flex-row justify-between w-full px-20'>
                 <div className='flex flex-col items-center gap-2'>

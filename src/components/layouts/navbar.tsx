@@ -25,12 +25,12 @@ const navItems = [
 
 const Navbar = () => {
     return (
-        <div className='fixed inline-flex items-center justify-between w-full xl:px-20 px-10 py-4 bg-background z-[999]'>
+        <div className='fixed inline-flex items-center justify-between w-full xl:px-14 px-10 py-4 bg-background z-[999]'>
             <div className='inline-flex items-center gap-20'>
                 <Image
                     src='/images/logo.svg'
                     alt='logo CSTAM'
-                    width={200}
+                    width={150}
                     height={40}
                 />
                 <div className='items-center gap-10 xl:flex hidden'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <Link
                             key={index}
                             href={item.link}
-                            className='text-foreground hover:text-white duration-200 font-medium text-xl'>
+                            className='text-foreground hover:text-white duration-200 font-medium'>
                             {item.name}
                         </Link>
                     ))}
@@ -72,11 +72,7 @@ const Navbar = () => {
                     </DrawerContent>
                 </Drawer>
             </div>
-            <Button
-                variant='secondary'
-                size='lg'
-                className='xl:block hidden'
-                disabled>
+            <Button variant='secondary' className='xl:block hidden' disabled>
                 Registration Closed
             </Button>
         </div>

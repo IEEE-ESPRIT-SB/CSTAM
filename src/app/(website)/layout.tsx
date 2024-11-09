@@ -9,9 +9,7 @@ export default function WebsiteLayout({
     return (
         <>
             <Navbar />
-            <main className='flex flex-col md:gap-32 gap-20 py-20'>
-                {children}
-            </main>
+            <main className='flex flex-col md:gap-32 gap-20'>{children}</main>
             <Footer />
         </>
     );

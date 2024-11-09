@@ -17,10 +17,8 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body className={`${fontSans.variable}`}>
-                <main>
-                    {/* <LoadingBar /> */}
-                    {children}
-                </main>
+                {/* <LoadingBar /> */}
+                {children}
             </body>
         </html>
     );
