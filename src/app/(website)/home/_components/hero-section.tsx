@@ -9,13 +9,24 @@ import CsLogo from '/public/images/cs.webp';
 import CstamLogo from '/public/images/cstam.webp';
 import SbLogo from '/public/images/sb.webp';
 import SectionLogo from '/public/images/section.webp';
+import Typewriter from 'typewriter-effect';
+
 const HeroSection = () => {
     const router = useRouter();
     return (
         <section className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>
-            <h4 className='typing-title uppercase md:text-lg font-medium'>
-                #1 cs Tunisian annual meeting
+            <h4 className='uppercase md:text-xl text-lg font-medium'>
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString('#1 cs Tunisian annual meeting')
+                            .pauseFor(2500)
+                            .deleteAll()
+                            .start();
+                    }}
+                />
             </h4>
+
             <h1 className='md:text-8xl text-6xl font-black'>CSTAM 1.0</h1>
             <p className='md:text-lg md:mt-10 mt-5 md:max-w-[600px]'>
                 CSTAM brings together members of the IEEE Computer Society
